@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="destino.php" method="post">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" required><br><br>
+
+            <label for="telefone">Telefone para contato:</label><br>
+            <input type="text" id="telefone" required><br><br>
+
+            <label for="Motivo">Motivo do contato:</label><br>
+            <select id="Motivo" name="Motivo">
+                <option value="Sugestão">Sugestão</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Ou">Outro</option>
+            </select><br>
+
+            <label>Outro:</label><br>
+            <textarea name="Digite aqui:" rows="4" cols="20"></textarea><br><br>
+
+            <label for="Outr">Como ficou sabendo de nós:</label><br>
+            <select id="Outr" name="Outr">
+                <option value="Redes Socias">Redes Sociais</option>
+                <option value="Um Familiar ou amigo">Um Familiar</option>
+                <option value="Por um de nossos associadores">Por um de nossos associadores</option>
+                <option value="Outro">Outro</option>
+            </select><br>
+
+            <label>Outro:</label><br>
+            <textarea name="Digite aqui:" rows="4" cols="20"></textarea><br><br>
+            
+            <!--
+            CERTIFIQUE-SE DE PREENCHER TODOS OS CAMPOS!!-->
+            <button type="submit"></button>
+        </form>
+        <footer>
+            <p>Feito por Davi Aguiar</p>
+        </footer>
+    </body>
+</html>

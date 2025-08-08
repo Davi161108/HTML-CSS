@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>CADASTRO DE NOVOS USUÁRIOS</title>
+</head>
+<body>
+    <header>
+        <h2>PREENCHA A FICHA DE CADASTRO PARA NOSVOS USUÁRIOS!</h2>
+    </header>
+    <form action="destino.php" method="post">
+
+        <!--CAMPOS OBRIGATÓRIOS-->
+
+        <label for="nome"></label><br>
+        <input placeholder="Nome Completo:" type="text" id="nome" required><br>
+
+        <label for="email"></label><br>
+        <input placeholder="E-mail" type="text" id="email" required><br>
+
+        <label for="telefone"></label><br>
+        <input placeholder="Telefone" type="text" id="telefone" required><br>
+
+        <label for="usuario"></label><br>
+        <input placeholder="Nome de Usuário" type="text" id="usuario" required><br>
+
+        <label for="data"></label><br>
+        <input placeholder="Data de Nascimento" type="date" id="data" required><br>
+
+        <label for="senha"></label><br>
+        <input placeholder="Insira Sua Senha" type="password" id="senha" required><br>
+
+        <label for="senh"></label><br>
+        <input placeholder="Confirme Sua Senha" type="password" id="senh" required><br><br>
+
+        <!--RADIO-->
+
+        <label>Gênero:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="feminino" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label><br>
+
+        <input type="radio" id="outro" name="sexo" value="outro">
+        <label for="outro">Outro</label><br><br>
+
+        <!--CHECKBOX-->
+
+        <label>Interesses:</label><br>
+        <input type="checkbox" id="tec" name="tecnologia" value="interesses">
+        <label for="tec">Tecnologia</label><br>
+
+        <input type="checkbox" id="music" name="musica" value="interesses">
+        <label for="music">Música</label><br>
+
+        <input type="checkbox" id="esp" name="esportes" value="interesses">
+        <label for="esp">Esportes</label><br>
+
+        <input type="checkbox" id="fil" name="filmes" value="interesses">
+        <label for="fil">Filmes</label><br><br>
+
+        <!--SELECT-->
+
+        <label for="out">Selecione o seu Estado:</label><br>
+            <select id="out" name="out">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio De Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="ES">Espírito Santo</option>
+            </select><br><br>
+
+        <!--CIDADE-->
+        <label>Digite Sua Cidade:</label><br>
+        <textarea name="Digite aqui:" rows="2" cols="20"></textarea><br><br>
+
+        <!--FOTO DE PERFIL-->
+        <label for="file-upload">Adicione uma foto de perfil:</label><br>
+        <input type="file" id="file-upload" name="foto_perfil" accept="image/*"><br><br>
+
+        <!--MENSAGEM DE APRESENTAÇÃO-->
+        <label>Apresente-se:</label><br>
+        <textarea name="Digite aqui:" rows="4" cols="20"></textarea><br><br>
+
+        <!-- Botão -->
+        <input type="reset" value="RESETAR">
+        <input type="submit" value="CADASTRAR">
+</body>

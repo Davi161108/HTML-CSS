@@ -1,0 +1,18 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    color: rgb(182, 113, 113);
+}
+p1{
+    color: aqua;
+}
+.chique{
+    background-color: darkolivegreen;
+    font-size: 20px;
+    color: aliceblue;
+}
+#pobre{
+    font-family:'Times New Roman', Times, serif, Times, serif;
+    color: rgb(153, 81, 81);
+}

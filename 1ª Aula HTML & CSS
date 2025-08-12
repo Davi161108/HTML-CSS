@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Prática Inicial</title>
+</head>
+<body>
+    <h1>OLÁ, ISSO É UM TESTE DE COR.</h1>
+    <p1>NÃO IMPORTE!!!</p1>
+    <p class="chique">ASSIM VOÇÊ CONSEGUE ALTERAR SOMENTE O FUNDO DE TODO ESTE PARÁGRAFO!!</p>
+    <p id="pobre">ASSIM É POSSÍVEL ALTERAR A FONTE DE TUDO QUE ESTÁ DENTRO AQUI DESTE PARÁGRAFO!</p>
+</body>
+</html>

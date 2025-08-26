@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Aguiar</title>
+    <title>BARBEARIA FELIPPE</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #1f1f1f;
-            color: #f0f0f0;
+            background-color: #4E342E;
+            color: #F5F5DC;
+            background-image: url('https://media.istockphoto.com/id/1320646994/pt/foto/vintage-barber-shop-tools-on-wood-background-with-place-for-text-3d-rendering.jpg?b=1&s=170667a&w=0&k=20&c=_1zfZVazFnAcAK3EMHZ8DmZhDwS9VAdsCYubowdXXso='); /* Caminho da imagem */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            height: 100vh; /* Garante que o fundo ocupe toda a altura da tela */
+            margin: 0;
         }
 
         header {
-            background-color: #000;
+            background-color: #4e342e;
             padding: 20px 0;
             text-align: center;
         }
@@ -29,7 +35,7 @@
             justify-content: center;
             list-style: none;
             padding: 0;
-            background-color: #333;
+            background-color: #4E342E;
             margin: 0;
         }
 
@@ -49,7 +55,7 @@
         }
 
         .banner {
-            background: url('https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg') center/cover no-repeat;
+            background: url('"C:\Users\TEMP.ADM.008\Pictures\banner2.png"') center/cover no-repeat;
             height: 300px;
             display: flex;
             align-items: center;
@@ -62,7 +68,6 @@
             color: #fff;
         }
 
-        /* NOVA SEÇÃO DE SERVIÇOS - SIMPLIFICADA */
         .servicos {
             padding: 40px;
             text-align: center;
@@ -82,6 +87,7 @@
         .servico img {
             width: 100%;
             height: auto;
+            border-radius: 20px
         }
 
         .servico h3 {
@@ -105,10 +111,6 @@
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Barbearia Aguiar</h1>
-    </header>
     <nav>
         <ul>
             <li><a href="#">Início</a></li>
@@ -119,7 +121,7 @@
     </nav>
 
     <div class="banner">
-        <h2>Estilo que fala por você</h2>
+        <h2>Bem Vindo!</h2>
     </div>
 
     <!-- SEÇÃO DE SERVIÇOS -->
@@ -143,7 +145,7 @@
     </section>
 
     <footer>
-        &copy; 2025 Barbearia Aguiar. Todos os direitos reservados.
+        &copy; 2025 Barbearia FELIPPE. Todos os direitos reservados!
     </footer>
 
 </body>

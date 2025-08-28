@@ -75,6 +75,7 @@
 
         .servicos h2 {
             margin-bottom: 30px;
+            margin-top: 35%;
         }
 
         .servicos .servico {
@@ -87,7 +88,8 @@
         .servico img {
             width: 100%;
             height: auto;
-            border-radius: 20px
+            border-radius: 20px;
+            margin-top: 30%;
         }
 
         .servico h3 {
@@ -108,40 +110,94 @@
             padding: 20px;
             font-size: 14px;
         }
+
+        #minha{
+            position:sticky;
+            top: 0;
+        }
+
+        footer{
+            background-color: #4E342E;
+        }
+
+        a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <div id="minha">
     <nav>
         <ul>
             <li><a href="#">Início</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="file:///C:/Users/TEMP.ADM.007/Desktop/testes_site/CAD.html">Cadastro</a></li>
+            <li><a href="file:///C:/Users/Davi/cad.html">Cadastro</a></li>
         </ul>
     </nav>
+    </div>
 
     <div class="banner">
-        <h2>Bem Vindo!</h2>
+    <h2>Bem Vindo à Barber Shop!</h2>
     </div>
 
     <!-- SEÇÃO DE SERVIÇOS -->
     <section class="servicos">
-        <h2>Nossos Serviços</h2>
+        <h2>Aqui está os nossos Serviços disponíveis!</h2>
         <div class="servico">
+            <a href="file:///C:/Users/Davi/cad.html">
             <img src="https://images.pexels.com/photos/618786/pexels-photo-618786.jpeg" alt="Corte de cabelo">
             <h3>Corte de Cabelo</h3>
             <p>Clássico, moderno ou personalizado.</p>
+            </a>
         </div>
         <div class="servico">
+            <a href="file:///C:/Users/Davi/cad.html">
             <img src="https://images.pexels.com/photos/3992879/pexels-photo-3992879.jpeg" alt="Barba">
             <h3>Barba</h3>
             <p>Navalha, modelagem e hidratação.</p>
+            </a>
         </div>
         <div class="servico">
+            <a href="file:///C:/Users/Davi/cad.html">
             <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Sobrancelha">
             <h3>Sobrancelha</h3>
             <p>Design na navalha com precisão.</p>
+            </a>
+        <div class="agenda">
+            <a href="">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/5988959-calendario-icone-gratis-vetor.jpg" alt="Agenda">
+            <h3>Agenda</h3>
+            <p>Consulte os horários disponíveis e agende o melhor horário para você!</p>
+            </a>
         </div>
+
+    <div class="grid-containers">
+        <a href="file:///C:/Users/Davi/cad.html">
+        <div class="item"><img src="https://images.pexels.com/photos/618786/pexels-photo-618786.jpeg" alt="Corte de cabelo"></div>
+        <h3>Corte de Cabelo</h3>
+        <p>Clássico, moderno ou personalizado.</p>
+        </a>
+
+        <a href="file:///C:/Users/Davi/cad.html"></a>
+        <div class="item"><img src="https://images.pexels.com/photos/3992879/pexels-photo-3992879.jpeg" alt="Barba"></div>
+        <h3>Barba</h3>
+        <p>Navalha, modelagem e hidratação.</p>
+        </a>
+
+        <a href="file:///C:/Users/Davi/cad.html"></a>
+        <div class="item"><img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Sobrancelha"></div>
+        <h3>Sobrancelha</h3>
+        <p>Design na navalha com precisão.</p>
+        </a>
+
+        <a href="file:///C:/Users/Davi/cad.html"></a>
+        <div class="item"><img src="https://static.vecteezy.com/ti/vetor-gratis/p1/5988959-calendario-icone-gratis-vetor.jpg" alt="Agenda">
+        <h3>Agenda</h3>
+        <p>Consulte os horários disponíveis e agende o melhor horário para você!</p>
+        </a>
+
+    </div>
     </section>
 
     <footer>

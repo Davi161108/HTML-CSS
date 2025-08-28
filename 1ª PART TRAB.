@@ -66,16 +66,22 @@
         .banner h2 {
             font-size: 48px;
             color: #fff;
+            margin-top: 20%;
+        }
+
+        .banner h4{
+            text-align: center;
+            margin-top: 60%;
         }
 
         .servicos {
-            padding: 40px;
+            padding: 120px;
             text-align: center;
         }
 
         .servicos h2 {
-            margin-bottom: 30px;
-            margin-top: 35%;
+        margin-bottom: 30px;
+        margin-top: 25%;
         }
 
         .servicos .servico {
@@ -86,10 +92,10 @@
         }
 
         .servico img {
-            width: 100%;
-            height: auto;
-            border-radius: 20px;
-            margin-top: 30%;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 10px; /* Reduzido */
         }
 
         .servico h3 {
@@ -109,6 +115,7 @@
             text-align: center;
             padding: 20px;
             font-size: 14px;
+            margin-top: 0%;
         }
 
         #minha{
@@ -117,12 +124,32 @@
         }
 
         footer{
-            background-color: #4E342E;
+            background-color: #000000;
         }
 
         a{
             text-decoration: none;
         }
+
+
+
+        .grid-servicos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-right: 10px;
+        justify-content: center;
+        }
+
+        #agenda{
+            width: 10%;
+        }
+        
+
     </style>
 </head>
 <body>
@@ -139,66 +166,49 @@
 
     <div class="banner">
     <h2>Bem Vindo à Barber Shop!</h2>
+    <h4>Veja Mais...</h4>
     </div>
 
     <!-- SEÇÃO DE SERVIÇOS -->
     <section class="servicos">
-        <h2>Aqui está os nossos Serviços disponíveis!</h2>
+    <h2>Aqui estão os nossos Serviços disponíveis!</h2>
+    
+    <div class="grid-servicos"> <!-- Container de Grid começa aqui -->
+        
         <div class="servico">
-            <a href="file:///C:/Users/Davi/cad.html">
-            <img src="https://images.pexels.com/photos/618786/pexels-photo-618786.jpeg" alt="Corte de cabelo">
-            <h3>Corte de Cabelo</h3>
-            <p>Clássico, moderno ou personalizado.</p>
-            </a>
-        </div>
-        <div class="servico">
-            <a href="file:///C:/Users/Davi/cad.html">
-            <img src="https://images.pexels.com/photos/3992879/pexels-photo-3992879.jpeg" alt="Barba">
-            <h3>Barba</h3>
-            <p>Navalha, modelagem e hidratação.</p>
-            </a>
-        </div>
-        <div class="servico">
-            <a href="file:///C:/Users/Davi/cad.html">
-            <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Sobrancelha">
-            <h3>Sobrancelha</h3>
-            <p>Design na navalha com precisão.</p>
-            </a>
-        <div class="agenda">
-            <a href="">
-            <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/5988959-calendario-icone-gratis-vetor.jpg" alt="Agenda">
-            <h3>Agenda</h3>
-            <p>Consulte os horários disponíveis e agende o melhor horário para você!</p>
+            <a href="cad.html">
+                <img src="https://images.pexels.com/photos/618786/pexels-photo-618786.jpeg" alt="Corte de cabelo">
+                <h3>Corte de Cabelo</h3>
+                <p>Clássico, moderno ou personalizado.</p>
             </a>
         </div>
 
-    <div class="grid-containers">
-        <a href="file:///C:/Users/Davi/cad.html">
-        <div class="item"><img src="https://images.pexels.com/photos/618786/pexels-photo-618786.jpeg" alt="Corte de cabelo"></div>
-        <h3>Corte de Cabelo</h3>
-        <p>Clássico, moderno ou personalizado.</p>
-        </a>
+        <div class="servico">
+            <a href="cad.html">
+                <img src="https://images.pexels.com/photos/3992879/pexels-photo-3992879.jpeg" alt="Barba">
+                <h3>Barba</h3>
+                <p>Navalha, modelagem e hidratação.</p>
+            </a>
+        </div>
 
-        <a href="file:///C:/Users/Davi/cad.html"></a>
-        <div class="item"><img src="https://images.pexels.com/photos/3992879/pexels-photo-3992879.jpeg" alt="Barba"></div>
-        <h3>Barba</h3>
-        <p>Navalha, modelagem e hidratação.</p>
-        </a>
+        <div class="servico">
+            <a href="cad.html">
+                <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Sobrancelha">
+                <h3>Sobrancelha</h3>
+                <p>Design na navalha com precisão.</p>
+            </a>
+        </div>
 
-        <a href="file:///C:/Users/Davi/cad.html"></a>
-        <div class="item"><img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg" alt="Sobrancelha"></div>
-        <h3>Sobrancelha</h3>
-        <p>Design na navalha com precisão.</p>
-        </a>
+        <div id="agenda" class="servico">
+            <a href="cad.html">
+                <img src="https://blog.kukos.com.br/wp-content/uploads/2017/03/historia-do-relogio-cuco-no-brasil.webp" alt="Agenda">
+                <h3>Agenda</h3>
+                <p>Consulte os horários disponíveis e agende o melhor horário para você!</p>
+            </a>
+        </div>
 
-        <a href="file:///C:/Users/Davi/cad.html"></a>
-        <div class="item"><img src="https://static.vecteezy.com/ti/vetor-gratis/p1/5988959-calendario-icone-gratis-vetor.jpg" alt="Agenda">
-        <h3>Agenda</h3>
-        <p>Consulte os horários disponíveis e agende o melhor horário para você!</p>
-        </a>
-
-    </div>
-    </section>
+    </div> <!-- Container de Grid termina aqui -->
+</section>
 
     <footer>
         &copy; 2025 Barbearia FELIPPE. Todos os direitos reservados!
